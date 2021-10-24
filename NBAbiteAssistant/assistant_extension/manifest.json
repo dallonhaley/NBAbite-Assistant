@@ -1,0 +1,34 @@
+{
+    "name": "NBAbite Assistant",
+    "description": "Go to stream link immediately without opening loads of ads first",
+    "version": "1.0",
+    "manifest_version": 3,    
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"], 
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/basketball16.png",
+        "32": "/images/basketball32.png",
+        "48": "/images/basketball48.png",
+        "128": "/images/basketball128.png"
+      } 
+    },
+    "icons": {
+      "16": "/images/basketball16.png",
+      "32": "/images/basketball32.png",
+      "48": "/images/basketball48.png",
+      "128": "/images/basketball128.png"
+    },
+    "commands": {
+      "stream": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Space",
+          "mac": "Command+Shift+Space"
+        },
+        "description": "Open stream link in new tab"
+      }
+    }
+}
