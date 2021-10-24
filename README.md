@@ -29,7 +29,7 @@ This line of javascript will act as our bookmark and when the bookmark is opened
 
 ## How to Use
 
-For both methods of use, it is important that you are no the 'Your Link is Ready' page on nbabite.com or affiliated sports streaming sites. You must have waited the 3 seconds required before running the extension or bookmark code or it will not work. 
+For both methods of use, it is important that you are on the 'Your Link is Ready' page on nbabite.com or affiliated sports streaming sites. You must have waited the 3 seconds required before running the extension or bookmark code or it will not work. 
 
 #### Chrome Extension 
 
