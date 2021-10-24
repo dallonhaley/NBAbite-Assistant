@@ -1,6 +1,6 @@
 #streamButton{
   height: 50px;
-  width: 80px;
+  width: 150px;
   outline: none;
   margin: 10px;
   border: none;
@@ -17,7 +17,7 @@ body{
     background-color:#444444;
     color: white;
     height: 175px;
-    width: 300px;
+    width: 400px;
     text-align: center;
 }
 
