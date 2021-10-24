@@ -13,7 +13,7 @@ NBAbite Assistant will retrieve the actual stream link from this site and open a
 
 ## Installation
 
-There are two ways you can install NBAbite assistant: by Chrome extension, and by browser bookmarklet. 
+There are two ways you can install NBAbite assistant: by Chrome extension, and by browser bookmarklet. For both, you will need to either clone this repository, or install the specified files from it to your local computer. 
 
 #### Chrome Extension 
 
