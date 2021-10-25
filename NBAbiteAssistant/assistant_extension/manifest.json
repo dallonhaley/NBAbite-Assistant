@@ -6,7 +6,21 @@
     "background": {
       "service_worker": "background.js"
     },
-    "permissions": ["storage", "activeTab", "scripting", "tabs"], 
+    "permissions": [
+      "storage", 
+      "activeTab", 
+      "scripting", 
+      "tabs", 
+      "webRequest",
+      "declarativeNetRequest"
+    ], 
+    "declarative_net_request": {
+      "rule_resources": [{
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }]
+    },
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
